@@ -2,7 +2,7 @@
 
 export default function Faq() {
     return (
-        <div className="mt-20 w-4/5 mx-auto space-y-3">
+        <div className="mt-20 w-4/5 mx-auto space-y-3 mb-20">
             <div class="collapse collapse-arrow bg-base-200">
                 <input type="radio" name="my-accordion-2" checked="checked" />
                 <div class="collapse-title text-xl font-medium">What is React.js and Explain the concept of "components" in React.</div>

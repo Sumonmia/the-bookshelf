@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { ROUTES } from "../../routes";
 
 
 export default function Header() {
@@ -23,10 +25,10 @@ export default function Header() {
                     <ul
                         tabindex="0"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>FAQ</a></li>
+                    <Link to={ROUTES.HOME} className="btn hover:bg-orange-800 hover:text-white">Home</Link>
+                    <Link to={ROUTES.ABOUT} className="btn hover:bg-orange-800 hover:text-white">About</Link>
+                    <Link to={ROUTES.BLOG} className="btn hover:bg-orange-800 hover:text-white">Blog</Link>
+                    <Link to={ROUTES.FAQ} className="btn hover:bg-orange-800 hover:text-white">FAQ</Link>
                     </ul>
                 </div>
                 {/* dropdown end */}
@@ -36,17 +38,18 @@ export default function Header() {
                 </div>
                 
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>FAQ</a></li>
+                    <ul class="menu menu-horizontal px-1 space-x-4">
+                    <Link to={ROUTES.HOME} className="btn hover:bg-orange-800 hover:text-white">Home</Link>
+                    <Link to={ROUTES.ABOUT} className="btn hover:bg-orange-800 hover:text-white">About</Link>
+                    <Link to={ROUTES.BLOG} className="btn hover:bg-orange-800 hover:text-white">Blog</Link>
+                    <Link to={ROUTES.FAQ} className="btn hover:bg-orange-800 hover:text-white">FAQ</Link>
+
                     </ul>
                 </div>
 
                 <div class="navbar-end space-x-2">
-                    <a class="btn">Buy Book</a>
-                    <a class="btn">Sign In</a>
+                    <a class="btn hover:bg-orange-800 hover:text-white">Buy Book</a>
+                    <a class="btn hover:bg-orange-800 hover:text-white">Sign In</a>
                 </div>
             </div>
         </section>
