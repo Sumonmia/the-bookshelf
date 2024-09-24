@@ -7,11 +7,11 @@ import Faq from "./Faq";
 export default function Homepage() {
   return (
     <div>
-    <Header />
+
     <Banner />
     <BookList />
     <Faq />
-    <Footer />
+
     </div>
   )
 }

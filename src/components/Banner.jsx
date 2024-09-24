@@ -6,10 +6,10 @@ export default function Banner() {
             <div class="hero bg-base-200">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img
-                        src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                        class="max-w-sm rounded-lg shadow-2xl" />
-                    <div>
-                        <h1 class="text-2xl lg:text-5xl font-bold">Unlock a World of Stories</h1>
+                        src="banner-book.jpg"
+                        class="max-w-sm rounded-lg shadow-2xl max-w-80 lg:ml-10" />
+                    <div className="lg:mr-10">
+                        <h1 class="text-2xl lg:text-3xl font-bold ">Unlock a World of Stories</h1>
                         <p class="py-6 text-sm lg:text-2xl">
                             Find Your Favourite Book at The BookShelf
                         </p>
