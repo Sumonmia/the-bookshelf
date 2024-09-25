@@ -25,3 +25,5 @@ Responsive Design: Fully responsive design, ensuring the site looks great on all
 **CSS**: Tailwind and DaisyUI
 
 **React + Vite**
+
+**Project Live Link** : https://thebookshelf-sumon.netlify.app/
